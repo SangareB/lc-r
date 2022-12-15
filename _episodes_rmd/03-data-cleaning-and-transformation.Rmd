@@ -352,7 +352,7 @@ We see the error message `NAs introduced by coercion`. This is because non-numer
 
 ## Pattern matching
 
-Cleaning text with the `stringr` package is easier when you have a basic understanding of 'regex', or regular expression pattern matching. Regex is especially useful for manipulating strings (alphanumeric data), and is the backbone of search-and-replace operations in most applications.  Pattern matching is common to all programming languages but regex syntax is often code-language specific.  Below, find an example of using pattern matching to find and replace data in R:  
+Cleaning text with the `stringr` package is easier when you have a basic understanding of 'regex', or regular expression pattern matching.Regex is especially useful for manipulating strings (alphanumeric data), and is the backbone of search-and-replace operations in most applications. Pattern matching is common to all programming languages but regex syntax is often code-language specific.  Below, find an example of using pattern matching to find and replace data in R:  
 
 1. Remove the trailing slash in the title column
 2. Modify the punctuation separating the title from a subtitle
@@ -422,6 +422,8 @@ Many data analysis tasks can be approached using the *split-apply-combine*
 paradigm: split the data into groups, apply some analysis to each group, and
 then combine the results. **`dplyr`** makes this very easy through the use of
 the `group_by()` function.
+
+**Regex is especially useful for manipulating strings (alphanumeric data), and is the backbone of search-and-replace operations in most applications. 
 
 #### The `summarize()` function
 
